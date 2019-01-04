@@ -1,0 +1,7 @@
+{
+    "/api":{
+        "target":"http://localhost/sims.git",
+        "secure":false,
+        "changeOrigin":true
+    }
+}
