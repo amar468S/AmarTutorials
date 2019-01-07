@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FlexLayoutModule} from '@angular/flex-layout';
+import { FlexLayoutModule} from 'angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
@@ -62,8 +62,7 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     HttpClientModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule,
-    FlexLayoutModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
