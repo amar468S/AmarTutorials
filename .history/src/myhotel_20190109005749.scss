@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$myhotel-primary: mat-palette($mat-indigo);
+$myhotel-accent:  mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$myhotel-warn:    mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$myhotel: mat-light-theme($myhotel-primary, $myhotel-accent, $myhotel-warn);
+
+@include angular-material-theme($myhotel-theme);
